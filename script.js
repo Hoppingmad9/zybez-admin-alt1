@@ -37,7 +37,7 @@ function showSelectedChat(chat) {
 
 function readChatbox() {
     var opts = reader.read() || [];
-    var chat = "";
+    var chat = "[21:17:31][Clan System] Ironmad9 has capped at the citadel";
 
     console.log(opts);
 
