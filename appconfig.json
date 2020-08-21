@@ -1,5 +1,14 @@
 {
     "appname": "Zybez Admin",
     "desciption": "Tracks clannies capping at citadel.",
-    "appUrl": "todo"
+    "appUrl": "https://hoppingmad9.github.io/zybez-admin-alt1/",
+    "configUrl": "https://hoppingmad9.github.io/zybez-admin-alt1/appconfig.json",
+    "iconUrl": "https://hoppingmad9.github.io/zybez-admin-alt1/zybez.ico",
+    "defaultWidth": 277,
+    "defaultHeight": 551,
+    "minWidth": 330,
+    "minHeight": 108,
+    "requestHandlers": [],
+    "activators": [],
+    "permissions": "pixel,gamestate,overlay"
 }
