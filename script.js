@@ -56,12 +56,14 @@ function readChatbox() {
                 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
                 '_blank'
             );
-
             console.log(username);
         }
         if (item.indexOf("Provides easy access to your bank.") > -1) {
             let username = 'Ironmad9';
-            window.location.href = 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username;
+            window.open(
+                'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
+                '_blank'
+            );
             console.log(username);
         }
     });
