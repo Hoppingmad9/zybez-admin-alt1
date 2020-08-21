@@ -52,7 +52,7 @@ function readChatbox() {
         }
         if (item.indexOf("[Clan System]") > -1) {
             let username = item.trim().split("[Clan System]")[1].trim().split("has capped at the citadel")[0].trim();
-            window.location.href = 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username';
+            window.location.href = 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username;
             console.log(username);
         }
     });
