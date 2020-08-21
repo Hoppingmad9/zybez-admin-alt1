@@ -40,6 +40,19 @@ function readChatbox() {
     var chat = "";
 
     console.log(opts);
+
+    for (a in opts) {
+        chat += opts[a].text + " ";
+    }
+
+    let chatParse = chat.split(/\[([\d]{1,2}:){2}[\d]{1,2}\]/g);
+    chatParse.forEach(item => {
+        if (item.trim() === "") {
+            return;
+        }
+        if (item.indexOf("has capped at the citadel") > -1) {
+            let name =
+        }
 }
 
 let tracking = setInterval(function () {
