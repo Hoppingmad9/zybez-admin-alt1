@@ -52,6 +52,15 @@ function readChatbox() {
         }
         if (item.indexOf("[Clan System]") > -1) {
             let username = item.trim().split("[Clan System]")[1].trim().split("has capped at the citadel")[0].trim();
+            window.open(
+                'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
+                '_blank'
+            );
+
+            console.log(username);
+        }
+        if (item.indexOf("Provides easy access to your bank.") > -1) {
+            let username = 'Ironmad9';
             window.location.href = 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username;
             console.log(username);
         }
