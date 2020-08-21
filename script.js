@@ -37,7 +37,7 @@ function showSelectedChat(chat) {
 
 function readChatbox() {
     var opts = reader.read() || [];
-    var chat = "[21:17:31][Clan System] Ironmad9 has capped at the citadel";
+    var chat = "";
 
     console.log(opts);
 
@@ -54,7 +54,7 @@ function readChatbox() {
             let username = item.trim().split("[Clan System]")[1].trim().split("has capped at the citadel")[0].trim();
             window.open(
                 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
-                '_blank'
+                'myIframe'
             );
             console.log(username);
         }
@@ -62,7 +62,7 @@ function readChatbox() {
             let username = 'Ironmad9';
             window.open(
                 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
-                '_blank'
+                'myIframe'
             );
             console.log(username);
         }
