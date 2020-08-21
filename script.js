@@ -41,3 +41,7 @@ function readChatbox() {
 
     console.log(opts);
 }
+
+let tracking = setInterval(function () {
+      readChatbox();
+    }, 600);
