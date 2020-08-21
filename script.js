@@ -1,4 +1,4 @@
-a1lib.idtentifyUrl("appconfig.json");
+a1lib.identifyUrl("appconfig.json");
 var reader = new ChatBoxReader();
 reader.readargs = {
     colors: [
@@ -10,7 +10,7 @@ reader.find();
 
 if (reader.pos === null) {
     $(".mats").append(
-        "<span>Chat not detected. PLeaser ensure that you are in-game, then click <button onclick='location.reload()'>Refresh</button></span>"
+        "<span>Chat not detected. Please ensure that you are in-game, then click <button onclick='location.reload()'>Refresh</button></span>"
     );
 } else {
     reader.pos.mainbox = reader.pos.boxes[0];
