@@ -56,6 +56,7 @@ function readChatbox() {
             console.log(username);
         }
     });
+}
 
 let tracking = setInterval(function () {
       readChatbox();
