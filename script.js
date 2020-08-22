@@ -39,7 +39,7 @@ function readChatbox() {
     var opts = reader.read() || [];
     var chat = "";
 
-    console.log(opts);
+    //console.log(opts);
 
     for (a in opts) {
         chat += opts[a].text + " ";
