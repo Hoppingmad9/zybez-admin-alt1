@@ -59,7 +59,7 @@ function readChatbox() {
             console.log(username);
         }
         if (item.indexOf("Provides easy access to your bank") > -1) {
-            let username = 'Ironmad9';
+            let username = 'Test man. Didn\'t actually cap.';
             window.open(
                 'https://zybez.co.uk/data_submissions/receive_citadel_capping_usernames.php?username='+username,
                 'myIframe'
